@@ -1,0 +1,9 @@
+#pragma once
+void teste_clasa();
+void test_plus();
+void test_minus();
+void test_impartire();
+void test_inmultire();
+void test_egalitate();
+void test_modul();
+void all_tests();
