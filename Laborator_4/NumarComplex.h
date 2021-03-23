@@ -1,5 +1,6 @@
 ﻿#pragma once
 #pragma warning(disable : 4996)
+
 /*
 Să se defineasca, 
 implementeze 
@@ -20,16 +21,27 @@ public:
 	NumarComplex(const NumarComplex&);
 	~NumarComplex();
 
+
 	float getParteReala();
 	float getParteImaginara();
 	void setParteReala(float);
 	void setParteImaginara(float);
 
+
 	NumarComplex& operator=(const NumarComplex&);
+
 	NumarComplex operator+(const NumarComplex&);
+	NumarComplex& operator+=(const NumarComplex&);
+
 	NumarComplex operator-(const NumarComplex&);
+	NumarComplex& operator-=(const NumarComplex&);
+
 	NumarComplex operator*(const NumarComplex&);
+	NumarComplex& operator*=(const NumarComplex&);
+
 	NumarComplex operator/(const NumarComplex&);
+	NumarComplex& operator/=(const NumarComplex&);
+
 	bool operator==(const NumarComplex&);
 
 	float Modul();

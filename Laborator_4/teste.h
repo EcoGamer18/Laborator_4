@@ -6,4 +6,8 @@ void test_impartire();
 void test_inmultire();
 void test_egalitate();
 void test_modul();
+void test_plus_egal();
+void test_minus_egal();
+void test_inmultire_egal();
+void test_impartire_egal();
 void all_tests();

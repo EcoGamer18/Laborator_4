@@ -106,3 +106,25 @@ char* NumarComplex::toString() {
 	strcat(aux, "*i");
 	return aux;
 }
+
+NumarComplex& NumarComplex::operator+=(const NumarComplex& nr) {
+	parteReala += nr.parteReala;
+	parteImaginara += nr.parteImaginara;
+	return *this;
+}
+
+NumarComplex& NumarComplex::operator-=(const NumarComplex& nr) {
+	parteReala -= nr.parteReala;
+	parteImaginara -= nr.parteImaginara;
+	return *this;
+}
+
+NumarComplex& NumarComplex::operator*=(const NumarComplex& nr) {
+	(*this) = (*this) * nr;
+	return *this;
+}
+
+NumarComplex& NumarComplex::operator/=(const NumarComplex& nr) {
+	(*this) = (*this) / nr;
+	return *this;
+}
