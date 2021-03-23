@@ -96,7 +96,6 @@ float NumarComplex::Modul() {
 }
 
 char* NumarComplex::toString() {
-	//in constructie
 	char *aux = new char[100];
 	sprintf( aux, "%f",parteReala);
 	if(parteImaginara >0)
