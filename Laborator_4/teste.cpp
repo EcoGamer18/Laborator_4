@@ -130,7 +130,7 @@ void all_tests()
 	test_impartire();
 	test_egalitate();
 	test_modul();
-	test_toString();
+	//test_toString();
 	test_plus_egal();
 	test_minus_egal();
 	test_inmultire_egal();

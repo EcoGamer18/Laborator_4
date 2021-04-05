@@ -139,13 +139,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="teste_repo.h" />
     <ClInclude Include="NumarComplex.h" />
+    <ClInclude Include="operations.h" />
+    <ClInclude Include="Repository.h" />
     <ClInclude Include="teste.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NumarComplex.cpp" />
+    <ClCompile Include="Repository.cpp" />
+    <ClCompile Include="operations.cpp" />
     <ClCompile Include="teste.cpp" />
+    <ClCompile Include="teste_repo.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,6 +21,15 @@
     <ClInclude Include="teste.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Repository.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="operations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="teste_repo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NumarComplex.cpp">
@@ -30,6 +39,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Repository.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="operations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="teste_repo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
