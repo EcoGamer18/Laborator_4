@@ -1,17 +1,12 @@
 #pragma once
-
+#include<stack>
 #include "NumarComplex.h"
 
 class Repository {
 private:
-	int dimensiune;
-public:
-	
-	NumarComplex elem[100];
+	std::stack<NumarComplex> elem;
 
-	Repository();
-	
-	Repository(int lungime);
+public:
 
 	void add(NumarComplex& nr);
 
@@ -21,7 +16,7 @@ public:
 
 	int find(NumarComplex& nr);
 
-	NumarComplex* getAll();
+	std::stack<NumarComplex> getAll();
 
 	int size();
 

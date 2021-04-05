@@ -14,7 +14,7 @@ int main()
 	test_repo_all();//repo
 	run_all();//service
 	int varianta = 0;
-	Repository repo(0);
+	Repository repo;
 	do {
 		
 		print_menu();
