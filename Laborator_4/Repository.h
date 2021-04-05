@@ -5,9 +5,8 @@
 class Repository {
 private:
 	int dimensiune;
-public:
-	
 	NumarComplex elem[100];
+public:
 
 	Repository();
 	
