@@ -1,13 +1,16 @@
 #include "teste.h"
 #include "teste_repo.h"
+#include "teste_service.h"
 #include "NumarComplex.h"
-#include "operations.h"
+#include "UI.h"
 #include "Repository.h"
 #include <iostream>
+
 int main()
 {
-	all_tests();
-	test_repo_all();
+	all_tests();//numarcomplex
+	test_repo_all();//repo
+	run_all();//service
 	int varianta = 0;
 	Repository repo(0);
 	do {
@@ -22,13 +25,17 @@ int main()
 			NumarComplex nr(r, i);
 			repo.add(nr);
 		}
+			break;
 		case 2:
 		{
 			for (int i = 0; i < repo.size(); i++)
-				std::cout << repo.getFrom(i).toString() << " ";
+				std::cout << repo.getFrom(i).toString() << "\n";
 		}
+			break;
 		case 0:
 			break;
+		default:
+			std::cout << "Optiunea data nu e valida.\n";
 		}
 	}while (varianta != 0);
 	return 0;

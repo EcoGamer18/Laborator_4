@@ -139,9 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Service.h" />
     <ClInclude Include="teste_repo.h" />
     <ClInclude Include="NumarComplex.h" />
-    <ClInclude Include="operations.h" />
+    <ClInclude Include="teste_service.h" />
+    <ClInclude Include="UI.h" />
     <ClInclude Include="Repository.h" />
     <ClInclude Include="teste.h" />
   </ItemGroup>
@@ -149,7 +151,9 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NumarComplex.cpp" />
     <ClCompile Include="Repository.cpp" />
-    <ClCompile Include="operations.cpp" />
+    <ClCompile Include="teste_service.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="Service.cpp" />
     <ClCompile Include="teste.cpp" />
     <ClCompile Include="teste_repo.cpp" />
   </ItemGroup>
