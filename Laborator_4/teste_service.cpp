@@ -15,8 +15,8 @@ Repository prep() {
 	NumarComplex nr5(1, 2);
 	NumarComplex nr6(1, 2);
 	NumarComplex nr7(4, 3);
-	NumarComplex nr8(1, 2);
-	NumarComplex nr9(4, 3);
+	NumarComplex nr8(-1, 2);
+	NumarComplex nr9(4, -3);
 
 	Repository repo;
 	repo.add(nr1);
@@ -91,11 +91,11 @@ void test_apartine_cerc_geometric()
 	Service service(repo);
 
 	std::stack <int> re;
-	int aux[] = { 1,3,4,5,6,7,8 };
-	for (int i = 0; i < 7; i++)
+	int aux[] = { 0,1,3,4,5,6 };
+	for (int i = 0; i < 6; i++)
 		re.push(aux[i]);
 	std::stack <int> result =service.apartine_cerc_geometric();
-
+	
 	assert(CompareStack(re, result) == 0);
 }
 

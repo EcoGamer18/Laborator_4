@@ -50,7 +50,7 @@ std::pair <int, int> Service::secv_egale() {
 
 std::stack <int> Service::apartine_cerc_geometric() {
 	std::stack <int> result = {};
-	for (int i = 1; i < Repo.size(); i++) {
+	for (int i = 0; i < Repo.size(); i++) {
 		if (Repo.getFrom(i).getParteReala() / Repo.getFrom(i).Modul() >= 0 and
 			Repo.getFrom(i).getParteImaginara() / Repo.getFrom(i).Modul() >= 0)
 			result.push(i);
