@@ -6,8 +6,8 @@ implementeze
 si testeze una din clasele de mai jos.  
 Constructor cu parametri, 
 set-eri, get-eri, destructor – LIVE (6 puncte) 
-
 Restul metodelor – TEMA (4 puncte)
+
 -------------------------------------------------------
 Lab 5
 Folosind entitatea definita la laboratorul 4 
