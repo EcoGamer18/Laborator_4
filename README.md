@@ -6,9 +6,10 @@ Lab 4
 Să se defineasca, 
 implementeze 
 si testeze una din clasele de mai jos.  
-Constructor cu parametri, 
-set-eri, get-eri, destructor – LIVE (6 puncte) 
-Restul metodelor – TEMA (4 puncte)
+
+	-Constructor cu parametri, 
+		set-eri, get-eri, destructor – LIVE (6 puncte) 
+	-Restul metodelor – TEMA (4 puncte)
 
 -------------------------------------------------------
 Lab 5
