@@ -1,6 +1,8 @@
 # Laborator_4-5
 
 Lab 4
+--------------
+
 Să se defineasca, 
 implementeze 
 si testeze una din clasele de mai jos.  
@@ -10,6 +12,8 @@ Restul metodelor – TEMA (4 puncte)
 
 -------------------------------------------------------
 Lab 5
+--------------
+
 Folosind entitatea definita la laboratorul 4 
 (NumarComplex, Patrat, Triunghi, etc.), 
 denumita acum ENTITATE, 
@@ -33,6 +37,8 @@ Pentru definirea unui container cu obiecte se pot folosesi:
 	-fie siruri alocatedinamic(1p bonus)
 -----------------------------------------------------------
 Lab 6
+-----------
+
 Sa se modifice problema de la laboratorul 5 
 prin folosirea containerilor predefiniti din stl.  
 
