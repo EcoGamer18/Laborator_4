@@ -15,9 +15,9 @@ void test_repo_adaugare() {
 	repo.add(nr2);
 	repo.add(nr3);
 	assert(repo.size() == 3);
-	assert(repo.find(nr1) == 0);
+	assert(repo.find(nr1) == 1);
 	assert(repo.find(nr2) == 1);
-	assert(repo.find(nr3) == 2);
+	assert(repo.find(nr3) == 1);
 	repo.add(nr4);
 	repo.add(nr5);
 	assert(repo.size() == 5);

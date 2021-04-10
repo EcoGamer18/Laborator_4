@@ -50,41 +50,6 @@ void test_secv_egale() {
 }
 
 
-void PrintStack(std::stack<int> s)
-{
-	std::stack<int> temp;
-	while (s.empty() == false)
-	{
-		temp.push(s.top());
-		s.pop();
-	}
-
-	while (temp.empty() == false)
-	{
-		int t = temp.top();
-		std::cout << t << " ";
-		temp.pop();
-
-		// To restore contents of
-		// the original stack.
-		s.push(t);
-	}
-}
-
-int CompareStack(std::stack<int> s1, std::stack<int> s2) {
-	if (s1.size() != s2.size())
-		return 1;
-	while (!(s1.empty()))
-	{
-		int t1 = s1.top(), t2 = s2.top();
-		if (t1 != t2)
-			return -1;
-		s1.pop();
-		s2.pop();
-	}
-	return 0;
-}
-
 void test_apartine_cerc_geometric()
 {	
 	Repository repo = prep();
@@ -96,7 +61,7 @@ void test_apartine_cerc_geometric()
 		re.push(aux[i]);
 	std::stack <int> result =service.apartine_cerc_geometric();
 	
-	assert(CompareStack(re, result) == 0);
+	assert(service.CompareStack(re, result) == 0);
 }
 
 void run_all() {
